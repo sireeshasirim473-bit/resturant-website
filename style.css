@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#222;
+    color:white;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+nav a:hover{
+    color:orange;
+}
+
+.hero{
+    background:url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4") center/cover;
+    height:400px;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero h2{
+    font-size:45px;
+}
+
+.hero p{
+    font-size:22px;
+}
+
+#menu{
+    padding:40px;
+    text-align:center;
+}
+
+.menu-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    margin-top:30px;
+}
+
+.menu-box{
+    width:250px;
+    background:white;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+.menu-box img{
+    width:100%;
+    border-radius:10px;
+}
+
+.menu-box h3{
+    color:darkred;
+    margin-bottom:10px;
+}
+
+.menu-box h4{
+    margin-top:10px;
+}
+
+.menu-box p{
+    color:green;
+    font-size:20px;
+    font-weight:bold;
+}
+
+#about,#contact{
+    padding:40px;
+    text-align:center;
+    background:white;
+    margin-top:20px;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
+}
